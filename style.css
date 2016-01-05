@@ -1,9 +1,13 @@
-h1 {
-  color: #07f;
-}
-h2 {
+.red {
   color: #c00;
 }
 .orange {
   color: #f90;
+}
+.blue {
+  color: #00f;
+}
+ul > li,
+ul > li > a {
+  text-decoration: none;
 }
