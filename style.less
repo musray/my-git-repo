@@ -6,29 +6,47 @@
 @green: green;
 @indigo: #4b0082;
 @violet: violet;
+@bright-text: white;
+@dark-text: darkgrey;
 
+.light-text {
+  color: @bright-text;
+}
+.dark-text {
+  color: @dark-text;
+}
 .red {
-  color: @red;
+  .light-text;
+  background-color: @red;
 }
 .orange {
-  color: @orange;
+  .light-text;
+  background-color: @orange;
 }
 .blue {
-  color: @blue;
+  .light-text;
+  background-color: @blue;
 }
 ul > li,
 ul > li > a {
   text-decoration: none; 
 }
+li {
+  list-style: none;
+}
 .yellow {
-  color: @yellow;
+  .dark-text;
+  background-color: @yellow;
 }
 .green {
-  color: @green;
+  .light-text;
+  background-color: @green;
 }
 .indigo {
-  color: @indigo;
+  .light-text;
+  background-color: @indigo;
 }
 .violet {
-  color: @violet;
+  .light-text;
+  background-color: @violet;
 }

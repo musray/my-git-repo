@@ -1,25 +1,41 @@
+.light-text {
+  color: white;
+}
+.dark-text {
+  color: darkgrey;
+}
 .red {
-  color: #c00;
+  color: white;
+  background-color: #c00;
 }
 .orange {
-  color: #f90;
+  color: white;
+  background-color: #f90;
 }
 .blue {
-  color: #00f;
+  color: white;
+  background-color: #00f;
 }
 ul > li,
 ul > li > a {
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 .yellow {
-  color: yellow;
+  color: darkgrey;
+  background-color: yellow;
 }
 .green {
-  color: green;
+  color: white;
+  background-color: green;
 }
 .indigo {
-  color: #4b0082;
+  color: white;
+  background-color: #4b0082;
 }
 .violet {
-  color: violet;
+  color: white;
+  background-color: violet;
 }
