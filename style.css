@@ -11,3 +11,15 @@ ul > li,
 ul > li > a {
   text-decoration: none;
 }
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.indigo {
+  color: #4b0082;
+}
+.violet {
+  color: violet;
+}
